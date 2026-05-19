@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beranda - SMKN 6 Pandeglang</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>SMK NEGERI 6 PANDEGLANG</h1>
+    <nav>
+        <a href="index.html">Beranda</a>
+
+        <!-- Profil -->
+        <div class="dropdown">
+            <a href="#">Profil</a>
+            <div class="dropdown-content">
+                <a href="visi.html">Visi & Misi</a>
+                <a href="sejarah.html">Sejarah</a>
+            </div>
+        </div>
+
+        <!-- Akademik -->
+        <div class="dropdown">
+            <a href="#">Akademik</a>
+            <div class="dropdown-content">
+                <a href="pplg.html">PPLG</a>
+                <a href="tjkt.html">TJKT</a>
+                <a href="pms.html">PMS</a>
+                <a href="akl.html">AKL</a>
+                <a href="atph.html">ATPH</a>
+                <a href="Tkr.html">TKR</a>
+            </div>
+        </div>
+
+        <!-- Berita -->
+        <div class="dropdown">
+            <a href="#">Berita</a>
+            <div class="dropdown-content">
+                <a href="berita_terbaru.html">Berita Terbaru</a>
+                <a href="kegiatan_sekolah.html">Kegiatan Sekolah</a>
+            </div>
+        </div>
+
+        <!-- Pendaftaran -->
+        <div class="dropdown">
+            <a href="#">Pendaftaran</a>
+            <div class="dropdown-content">
+                <a href="Formulir.html">Formulir pendaftaran</a>
+                <a href="syarat.html">Syarat pendaftaran</a>
+            </div>
+        </div>
+
+        <!-- Kontak -->
+        <div class="dropdown">
+            <a href="#">Kontak</a>
+            <div class="dropdown-content">
+                <a href="Informasi_kontak.html">Informasi Kontak</a>
+                <a href="Sosial_media.html">Sosial Media</a>
+            </div>
+        </div>
+    </nav>
+</header>
+<main>
+<section>
+  <!-- Form -->
+  <h2>Formulir Pendaftaran</h2>
+
+  <form action="#" method="post">
+
+    <label>Nama Lengkap:</label><br>
+    <input type="text" name="nama" placeholder="masukkan nama" required><br><br>
+
+    <label>Tempat, Tanggal Lahir:</label><br>
+    <input type="text" name="ttl" required><br><br>
+
+    <label>Jenis Kelamin:</label><br>
+    <input type="radio" name="jk" value="Laki-laki"> Laki-laki
+    <input type="radio" name="jk" value="Perempuan"> Perempuan<br><br>
+
+    <label>Alamat:</label><br>
+    <textarea name="alamat" rows="4" cols="30"></textarea><br><br>
+
+    <label>Asal Sekolah:</label><br>
+    <input type="text" name="asal_sekolah"><br><br>
+
+    <label>Email:</label><br>
+    <input type="email" name="email"><br><br>
+
+    <label>No HP:</label><br>
+    <input type="text" name="nohp"><br><br>
+
+    <label>Pilih Jurusan:</label><br>
+    <select name="jurusan">
+      <option>PPLG</option>
+      <option>TKJ</option>
+      <option>PMS</option>
+      <option>AKL</option>
+      <option>TKR</option>
+      <option>ATPH</option>
+    </select><br><br>
+
+    <button type="submit">Daftar</button>
+    <button type="reset">Reset</button>
+
+  </form>
+</section>
+</main>
+  <hr>
+
+
+<footer>
+    <p>© 2025 SMKN 6 Pandeglang | Jl. Raya Labuan KM. 5, Pandeglang | Informasi PPDB: 0821-2345-6789</p>
+</footer>
+</body>
+</html>
